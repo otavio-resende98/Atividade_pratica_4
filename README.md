@@ -9,3 +9,29 @@
  - [Documentação TypeScript](https://www.typescriptlang.org/pt/docs/)
 
 
+
+## Código exemplo de declaração de classe em JavaScript
+```javascript
+class Retangulo {
+  constructor(altura, largura) {
+    this.altura = altura;
+    this.largura = largura;
+  }
+}
+```
+
+## Código de exemplo de declaração de classe em TypeScript
+
+```typescript 
+class Pessoa {
+	nome: string;
+	idade: number;
+	estaVivo: boolean;
+	
+	constructor(nome: string, idade: number, estaVivo: boolean){
+		this.nome = nome;
+		this.idade = idade;
+		this.estaVivo = estaVivo;
+	}
+}
+```
